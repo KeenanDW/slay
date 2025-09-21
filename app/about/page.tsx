@@ -192,10 +192,11 @@ export default function About() {
                 className="inline-block"
               >
                 <Link
-                  href="/"
+                  href="https://cal.com/keenan-williams-xltqya/30min"
+                  target="_blank"
                   className="inline-flex items-center px-8 py-4 bg-shade-02 text-shade-01 font-semibold rounded-lg shadow-xl hover:shadow-2xl transition-all"
                 >
-                  Start Your Growth Journey
+                  Book a Call
                 </Link>
               </motion.div>
             </motion.div>
@@ -233,7 +234,6 @@ export default function About() {
                 <h4 className="font-semibold mb-3">Company</h4>
                 <ul className="space-y-2 text-sm text-neutral-03">
                   <li><Link href="/about">About</Link></li>
-                  <li><Link href="#">Case Studies</Link></li>
                   <li><Link href="#">Blog</Link></li>
                   <li><Link href="#">Careers</Link></li>
                 </ul>

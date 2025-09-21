@@ -137,7 +137,7 @@ export default function Home() {
                   How We Drive Your Growth
                 </h2>
                 <p className="text-lg text-neutral-07 max-w-2xl mx-auto">
-                  Three core pillars designed to transform your startup's trajectory
+                  Three core pillars designed to transform your startup&apos;s trajectory
                 </p>
               </div>
 

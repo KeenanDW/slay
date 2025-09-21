@@ -30,11 +30,14 @@ export default function Home() {
               <Link href="#process" className="text-neutral-07 hover:text-shade-02 transition-colors">Process</Link>
               <Link href="#results" className="text-neutral-07 hover:text-shade-02 transition-colors">Results</Link>
               <Button
+                as="a"
+                href="https://cal.com/keenan-williams-xltqya/30min"
+                target="_blank"
                 className="bg-shade-02 text-shade-01 font-medium"
                 radius="sm"
                 size="md"
               >
-                Book a Strategy Call
+                Book a Call
               </Button>
             </div>
           </div>
@@ -89,12 +92,15 @@ export default function Home() {
                     whileTap={{ scale: 0.95 }}
                   >
                     <Button
+                      as="a"
+                      href="https://cal.com/keenan-williams-xltqya/30min"
+                      target="_blank"
                       size="lg"
                       className="bg-shade-02 text-shade-01 font-semibold px-8 shadow-xl shadow-primary-05/20 hover:shadow-primary-05/30 transition-all"
                       radius="sm"
                     >
                       <span className="relative">
-                        Get Your Growth Audit
+                        Book a Call
                         <motion.span
                           className="absolute inset-0 bg-white opacity-25 rounded"
                           animate={{ x: [-100, 100] }}
@@ -102,19 +108,6 @@ export default function Home() {
                           style={{ clipPath: 'polygon(0 0, 20% 0, 30% 100%, 0% 100%)' }}
                         />
                       </span>
-                    </Button>
-                  </motion.div>
-                  <motion.div
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <Button
-                      size="lg"
-                      variant="bordered"
-                      className="border-shade-02 text-shade-02 font-semibold px-8 backdrop-blur-sm bg-white/50 hover:bg-white/70 transition-all"
-                      radius="sm"
-                    >
-                      See Case Studies
                     </Button>
                   </motion.div>
                 </div>
@@ -155,7 +148,7 @@ export default function Home() {
                     <p className="text-neutral-07 mb-4 leading-relaxed">
                       Founder coaching focuses on resolving cofounder conflict, CEO maturity curve, and leading a company that is built to scale.
                     </p>
-                    <Link href="#" className="text-primary-05 font-medium flex items-center gap-1">
+                    <Link href="https://cal.com/keenan-williams-xltqya/30min" target="_blank" className="text-primary-05 font-medium flex items-center gap-1">
                       Learn more →
                     </Link>
                   </CardBody>
@@ -174,7 +167,7 @@ export default function Home() {
                     <p className="text-neutral-07 mb-4 leading-relaxed">
                       Growth advisory focuses on cash management, building toward profitability, and sustainable growth tactics.
                     </p>
-                    <Link href="#" className="text-primary-05 font-medium flex items-center gap-1">
+                    <Link href="https://cal.com/keenan-williams-xltqya/30min" target="_blank" className="text-primary-05 font-medium flex items-center gap-1">
                       Learn more →
                     </Link>
                   </CardBody>
@@ -193,7 +186,7 @@ export default function Home() {
                     <p className="text-neutral-07 mb-4 leading-relaxed">
                       Let us build custom AI products and agents personalized to your business, tech stack, and logic with no long-term subscriptions or licensing fees.
                     </p>
-                    <Link href="#" className="text-primary-05 font-medium flex items-center gap-1">
+                    <Link href="https://cal.com/keenan-williams-xltqya/30min" target="_blank" className="text-primary-05 font-medium flex items-center gap-1">
                       Learn more →
                     </Link>
                   </CardBody>
@@ -437,21 +430,16 @@ export default function Home() {
               <p className="text-xl text-neutral-02 mb-8">
                 Get a custom growth plan and see exactly how we&apos;ll help you hit your revenue targets.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex justify-center">
                 <Button
+                  as="a"
+                  href="https://cal.com/keenan-williams-xltqya/30min"
+                  target="_blank"
                   size="lg"
                   className="bg-shade-01 text-shade-02 font-semibold px-8 hover:bg-neutral-01"
                   radius="sm"
                 >
-                  Get Your Free Growth Audit
-                </Button>
-                <Button
-                  size="lg"
-                  variant="bordered"
-                  className="border-shade-01 text-shade-01 font-semibold px-8"
-                  radius="sm"
-                >
-                  Schedule a Call
+                  Book a Call
                 </Button>
               </div>
               <p className="text-sm text-neutral-03 mt-6">
@@ -492,7 +480,6 @@ export default function Home() {
                 <h4 className="font-semibold mb-3">Company</h4>
                 <ul className="space-y-2 text-sm text-neutral-03">
                   <li><Link href="#">About</Link></li>
-                  <li><Link href="#">Case Studies</Link></li>
                   <li><Link href="#">Blog</Link></li>
                   <li><Link href="#">Careers</Link></li>
                 </ul>

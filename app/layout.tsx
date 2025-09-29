@@ -12,6 +12,9 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: "StratumLab - Services That Help You Scale",
   description: "Strategic founder coaching, growth advisory, and vertically integrated AI solutions to help your business scale sustainably.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

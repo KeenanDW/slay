@@ -82,7 +82,7 @@ export default function Home() {
                 </h1>
 
                 <p className="text-xl text-neutral-07 mb-8 max-w-2xl leading-relaxed">
-                  Expert founder coaching, strategic growth advisory, and custom AI solutions designed to help startups and scale-ups achieve sustainable growth.
+                  Expert founder coaching, strategic growth advisory, and custom AI solutions designed to help startups and scale-ups achieve sustainable growth. Stratum Growth is now Stratum Lab - providing even more Founder coaching...
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-12">

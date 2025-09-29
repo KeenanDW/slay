@@ -36,7 +36,6 @@ export default function About() {
               <Link href="/" className="text-neutral-07 hover:text-shade-02 transition-colors">Home</Link>
               <Link href="/about" className="text-shade-02 font-medium">About</Link>
               <Link href="/#services" className="text-neutral-07 hover:text-shade-02 transition-colors">Services</Link>
-              <Link href="/#results" className="text-neutral-07 hover:text-shade-02 transition-colors">Results</Link>
             </div>
           </div>
         </div>
@@ -67,7 +66,7 @@ export default function About() {
               </h1>
               <p className="text-2xl text-neutral-07">
                 Founding Partner -
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-05 to-primary-07 font-semibold"> Stratum Growth</span>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-05 to-primary-07 font-semibold"> Stratum Lab</span>
               </p>
             </motion.div>
           </div>
@@ -156,9 +155,9 @@ export default function About() {
                 viewport={{ once: true }}
                 className="bg-gradient-to-br from-shade-02 to-shade-02-5 text-white p-12 rounded-2xl"
               >
-                <h3 className="text-3xl font-bold mb-6">Stratum Growth</h3>
+                <h3 className="text-3xl font-bold mb-6">Stratum Lab</h3>
                 <p className="text-lg leading-relaxed text-neutral-01">
-                  In 2020, Keenan launched <span className="font-semibold">Stratum Growth</span>, a strategic advisory platform for both early to mid-stage startups. The firm specializes in servicing first-time startup founders and operators, guiding them to reach product-market fit through data-driven strategies, AI-powered automation, and revenue optimization frameworks.
+                  In 2020, Keenan launched Stratum Growth - now Stratum Lab, a strategic advisory platform for both early to mid-stage startups. The firm specializes in servicing first-time startup founders and operators, guiding them to reach product-market fit through data-driven strategies, AI-powered automation, and revenue optimization frameworks.
                 </p>
                 <div className="mt-8 flex items-center gap-4">
                   <div className="w-px h-12 bg-neutral-03"></div>

@@ -28,7 +28,6 @@ export default function Home() {
               <Link href="/about" className="text-neutral-07 hover:text-shade-02 transition-colors">About</Link>
               <Link href="#services" className="text-neutral-07 hover:text-shade-02 transition-colors">Services</Link>
               <Link href="#process" className="text-neutral-07 hover:text-shade-02 transition-colors">Process</Link>
-              <Link href="#results" className="text-neutral-07 hover:text-shade-02 transition-colors">Results</Link>
               <Button
                 as="a"
                 href="https://cal.com/keenan-williams-xltqya/30min"
@@ -221,8 +220,8 @@ export default function Home() {
                     <div className="flex gap-4">
                       <div className="w-6 h-6 rounded-full bg-primary-05 flex-shrink-0 mt-1"></div>
                       <div>
-                        <h4 className="text-lg font-semibold text-shade-02 mb-2">Guaranteed ROI</h4>
-                        <p className="text-neutral-07">We guarantee a minimum 3x ROI within 90 days or we work for free until you hit your targets</p>
+                        <h4 className="text-lg font-semibold text-shade-02 mb-2">Enhanced ROI</h4>
+                        <p className="text-neutral-07">We will tirelessly test GTM strategies to achieve 2-3x revenue growth within 90 days to hit your targets</p>
                       </div>
                     </div>
                     <div className="flex gap-4">
@@ -358,62 +357,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section id="results" className="py-20 bg-neutral-01">
-          <div className="max-w-7xl mx-auto px-6">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              <div className="text-center mb-12">
-                <h2 className="text-4xl md:text-5xl font-bold text-shade-02 mb-4">
-                  Results That Speak Volumes
-                </h2>
-                <p className="text-lg text-neutral-07 max-w-2xl mx-auto">
-                  See how we&apos;ve helped companies transform their revenue operations
-                </p>
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-6">
-                {[
-                  {
-                    quote: "StratumLab's AI agents replaced 5 SDRs and increased our qualified pipeline by 312% in just 8 weeks.",
-                    author: "Sarah Chen",
-                    role: "VP Sales, TechCorp",
-                    metric: "+312% Pipeline"
-                  },
-                  {
-                    quote: "The automation workflows alone saved us 40 hours per week and doubled our conversion rates.",
-                    author: "Michael Ross",
-                    role: "CEO, ScaleUp Inc",
-                    metric: "2x Conversion"
-                  },
-                  {
-                    quote: "Best investment we've made. ROI hit 5x in month 3 and keeps climbing. True revenue partners.",
-                    author: "Emma Wilson",
-                    role: "CRO, Growth Co",
-                    metric: "5x ROI"
-                  }
-                ].map((testimonial, index) => (
-                  <Card key={index} className="bg-white border border-neutral-02">
-                    <CardBody className="p-8">
-                      <div className="mb-4">
-                        <span className="text-2xl font-bold text-primary-05">{testimonial.metric}</span>
-                      </div>
-                      <p className="text-neutral-07 mb-6 italic">&ldquo;{testimonial.quote}&rdquo;</p>
-                      <div>
-                        <p className="font-semibold text-shade-02">{testimonial.author}</p>
-                        <p className="text-sm text-neutral-06">{testimonial.role}</p>
-                      </div>
-                    </CardBody>
-                  </Card>
-                ))}
-              </div>
-            </motion.div>
-          </div>
-        </section>
 
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-br from-shade-02 to-shade-02-5">
@@ -442,9 +385,6 @@ export default function Home() {
                   Book a Call
                 </Button>
               </div>
-              <p className="text-sm text-neutral-03 mt-6">
-                No commitment required • Results in 14 days • 100% ROI guarantee
-              </p>
             </motion.div>
           </div>
         </section>
@@ -487,9 +427,8 @@ export default function Home() {
               <div>
                 <h4 className="font-semibold mb-3">Contact</h4>
                 <ul className="space-y-2 text-sm text-neutral-03">
-                  <li>hello@stratumlab.ai</li>
-                  <li>1-800-STRATUM</li>
-                  <li>San Francisco, CA</li>
+                  <li>keenan@stratumlab.ai</li>
+                  <li>New York, NY</li>
                 </ul>
               </div>
             </div>
